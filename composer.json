@@ -1,0 +1,20 @@
+{
+    "name": "jcid/gitlab:sensiolabs-security-advisories-checker",
+    "description": "Gitlab integration with SensioLabs Security Advisories Checker",
+    "authors": [
+        {
+            "name": "JCID",
+            "email": "info@jcid.nl"
+        }
+    ],
+    "require": {
+        "symfony/console": "~2.6",
+        "guzzlehttp/guzzle": "~5.2"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "~2.6"
+    },
+    "autoload": {
+      "psr-4": { "": "src/" }
+    }
+}
